@@ -5,6 +5,7 @@ body {
 	font-size: 12px;
 	line-height: 20px;
 	width: 100%;
+	background-color: Black;
 }
 h1, h2, h3, h4, h5, h6 {
 	color: #444;
@@ -33,7 +34,7 @@ h6 {
 	font-size: 10.2px;
 }
 a {
-	color: #23a1d1;
+	color: #BDBDBD;
 }
 a:hover {
 	text-decoration: none;
@@ -73,13 +74,13 @@ div.required .control-label:before {
 .dropdown-menu li > a:hover {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #0162a3;
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	background-repeat: repeat-x;
 }
 /* top */
 #top {
-	background-color: #EEEEEE;
+	background-color: #303030;
 	border-bottom: 1px solid #e2e2e2;
 	padding: 4px 0px 3px 0;
 	margin: 0 0 20px 0;
@@ -94,13 +95,13 @@ div.required .control-label:before {
 #top #currency .currency-select:hover {
 	text-shadow: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #0162a3;
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	background-repeat: repeat-x;
 }
 #top .btn-link, #top-links li, #top-links a {
 	color: #888;
-	text-shadow: 0 1px 0 #FFF;
+	/*text-shadow: 0 1px 0 #FFF;*/
 	text-decoration: none;
 }
 #top .btn-link:hover, #top-links a:hover {
@@ -162,7 +163,7 @@ div.required .control-label:before {
 	color: #444;
 }
 #cart .dropdown-menu {
-	background: #eee;
+	background: #303030;
 	z-index: 1001;
 }
 #cart .dropdown-menu {
@@ -190,10 +191,10 @@ div.required .control-label:before {
 }
 /* menu */
 #menu {
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
-	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	background-color: #303030;
+	/*background-image: linear-gradient(to bottom, #303030, #0162a3);
+	background-repeat: repeat-x;*/
+	border-color: #303030;
 	min-height: 40px;
 }
 #menu .nav > li > a {
@@ -201,7 +202,7 @@ div.required .control-label:before {
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
 	padding: 10px 15px 10px 15px;
 	min-height: 15px;
-	background-color: transparent;
+	background-color: #303030;
 }
 #menu .nav > li > a:hover, #menu .nav > li.open > a {
 	background-color: rgba(0, 0, 0, 0.1);
@@ -221,7 +222,7 @@ div.required .control-label:before {
 	padding: 3px 20px;
 	clear: both;
 	line-height: 20px;
-	color: #333333;
+	color: #303030;
 	font-size: 12px;
 }
 #menu .dropdown-inner li a:hover {
@@ -240,8 +241,8 @@ div.required .control-label:before {
 #menu .see-all:hover, #menu .see-all:focus {
 	text-decoration: none;
 	color: #ffffff;
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #0162a3;
+	/*background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);*/
 	background-repeat: repeat-x;
 }
 #menu #category {
@@ -250,8 +251,9 @@ div.required .control-label:before {
 	font-size: 16px;
 	font-weight: 700;
 	line-height: 40px;
-	color: #fff;
+	color: #0162a3;
 	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+	
 }
 #menu .btn-navbar {
 	font-size: 15px;
@@ -340,12 +342,14 @@ footer h5 {
 	margin: 0 0 20px 0;
 	padding: 8px 0;
 	border: 1px solid #ddd;
+	background-color: #303030;
+	background-image: linear-gradient(to bottom, #303030, #0162a3);
 }
 .breadcrumb i {
 	font-size: 15px;
 }
 .breadcrumb > li {
-	text-shadow: 0 1px 0 #FFF;
+	/*text-shadow: 0 1px 0 #FFF;*/
 	padding: 0 20px;
 	position: relative;
 	white-space: nowrap;
@@ -382,6 +386,7 @@ footer h5 {
 	border: 1px solid #cccccc;
 	border-radius: 4px;
 	box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.05);
+	
 }
 .btn-xs {
 	font-size: 9px;
@@ -408,21 +413,21 @@ footer h5 {
 .btn-default {
 	color: #777;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-	background-color: #e7e7e7;
-	background-image: linear-gradient(to bottom, #eeeeee, #dddddd);
+	background-color: #303030;
+	background-image: linear-gradient(to bottom, #303030, #0162a3);
 	background-repeat: repeat-x;
-	border-color: #dddddd #dddddd #b3b3b3 #b7b7b7;
+	border-color: #303030 #303030 #0162a3 #0162a3;
 }
 .btn-primary {
 	color: #ffffff;
 	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-	background-color: #229ac8;
-	background-image: linear-gradient(to bottom, #23a1d1, #1f90bb);
+	background-color: #303030;
+	background-image: linear-gradient(to bottom, #303030, #0162a3);
 	background-repeat: repeat-x;
-	border-color: #1f90bb #1f90bb #145e7a;
+	border-color: #303030 #303030 #0162a3 #0162a3;
 }
 .btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
-	background-color: #1f90bb;
+	background-color: #0162a3;
 	background-position: 0 -15px;
 }
 .btn-warning {
@@ -520,7 +525,7 @@ footer h5 {
 }
 /* product list */
 .product-thumb {
-	border: 1px solid #ddd;
+	border: 1px solid #303030;
 	margin-bottom: 20px;
 	overflow: auto;
 }
@@ -593,7 +598,7 @@ h2.price {
 	margin: 0;
 }
 .product-thumb .price {
-	color: #444;
+	color: #0162a3;
 }
 .product-thumb .price-new {
 	font-weight: 600;
@@ -609,12 +614,14 @@ h2.price {
 	display: block;
 }
 .product-thumb .button-group {
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #303030;
+	
 	background-color: #eee;
 	overflow: auto;
 }
 .product-list .product-thumb .button-group {
-	border-left: 1px solid #ddd;
+	border-left: 1px solid #0162a3;
+	border-right: 1px solid #303030;
 }
 @media (max-width: 768px) {
 	.product-list .product-thumb .button-group {
@@ -623,10 +630,12 @@ h2.price {
 }
 .product-thumb .button-group button {
 	width: 60%;
-	border: none;
+	border: transparent;
 	display: inline-block;
 	float: left;
-	background-color: #eee;
+	background-color: #303030;
+	background-image: linear-gradient(to bottom, #303030, #0162a3);
+	background-repeat: repeat-x;
 	color: #888;
 	line-height: 38px;
 	font-weight: bold;
@@ -638,8 +647,8 @@ h2.price {
 	border-left: 1px solid #ddd;
 }
 .product-thumb .button-group button:hover {
-	color: #444;
-	background-color: #ddd;
+	color: #0162a3;
+	background-color: #0162a3;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -673,7 +682,7 @@ h2.price {
 	margin-bottom: 20px;
 	padding: 5px;
 	display: block;
-	border: 1px solid #ddd;
+	border: 1px solid #000000;
 }
 .image-additional {
 	max-width: 78px;
